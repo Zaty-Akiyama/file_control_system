@@ -15,4 +15,9 @@ switch( $operate )
   case 'download' : 
     include_once('./operate/file_download_api.php');
     exit;
+
+  case 'remove' : 
+    include_once('./operate/file_remove_api.php');
+    exit;
+  
 }
