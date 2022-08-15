@@ -19,5 +19,8 @@ switch( $operate )
   case 'remove' : 
     include_once('./operate/file_remove_api.php');
     exit;
-  
+
+  case 'upload' : 
+    include_once('./operate/file_upload_api.php');
+    exit;
 }
